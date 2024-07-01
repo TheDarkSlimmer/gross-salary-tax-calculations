@@ -6,14 +6,13 @@ export const globalStyles = StyleSheet.create({
     height: "100%",
   },
   statusColor: {
-    backgroundColor: "#48CAE4",
+    backgroundColor: "#0077B6",
   },
 
   buttonStyles: {
     backgroundColor: "#0077B6",
     borderWidth: 0,
     width: 140,
-    // marginTop: 15,
     marginLeft: "auto",
     marginRight: "auto",
     display: "flex",
@@ -63,10 +62,11 @@ export const mainStyles = StyleSheet.create({
 });
 
 export const homeStyles = StyleSheet.create({
+  homeStatusBar: {},
   helloText: {
     fontSize: 35,
     fontWeight: "600",
-    marginTop: 20,
+    marginTop: "5%",
     marginBottom: 10,
     marginLeft: 30,
   },
@@ -96,5 +96,46 @@ export const homeStyles = StyleSheet.create({
     paddingRight: 10,
     borderRadius: 5,
     backgroundColor: "#F1F1F1",
+  },
+});
+
+export const summaryStyles = StyleSheet.create({
+  extimatedSalaryContainer: {
+    marginTop: 30,
+    display: "flex",
+    justifyContent: "center",
+    width: "100%",
+    padding: 30,
+    gap: 13,
+    textAlign: "center",
+  },
+
+  extimatedSalaryText: {
+    fontSize: 20,
+    fontWeight: "600",
+    margin: "auto",
+  },
+  exttimatedSalaryNumber: {
+    fontSize: 30,
+    fontWeight: "600",
+    margin: "auto",
+  },
+
+  valuesContainer: {
+    borderWidth: 2,
+    borderRadius: 5,
+    padding: 25,
+    borderColor: "#0077B6",
+    width: "80%",
+    margin: "auto",
+    marginBottom: 20,
+  },
+  valuesTextContainer: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    gap: 20,
+    marginBottom: 20,
+    fontWeight: '600'
   },
 });
