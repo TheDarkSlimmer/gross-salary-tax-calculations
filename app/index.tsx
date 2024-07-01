@@ -62,8 +62,12 @@ function Main() {
               value={inputName}
             />
             <TouchableOpacity
-              style={globalStyles.buttonStyles}
+              style={{
+                ...globalStyles.buttonStyles,
+                backgroundColor: !inputName ? "gray" : "#0077B6",
+              }}
               onPress={handleSubmit}
+              disabled={!inputName}
             >
               <Text style={globalStyles.buttonText}>Submit</Text>
             </TouchableOpacity>

@@ -52,7 +52,11 @@ function Home() {
             onChangeText={(text) => setDesiredAllowance(text)}
           />
           <TouchableOpacity
-            style={globalStyles.buttonStyles}
+            style={{
+              ...globalStyles.buttonStyles,
+              backgroundColor:
+                !desiredAllowance || !desiredNetSalary ? "gray" : "#0077B6",
+            }}
             onPress={() =>
               navigation.navigate("Summary", {
                 salary: desiredNetSalary,
