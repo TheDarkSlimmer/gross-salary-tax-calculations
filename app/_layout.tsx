@@ -1,5 +1,8 @@
 import { Stack } from "expo-router";
 import { Text, View } from "react-native";
+import { RootStackParamList } from ".";
+
+
 
 function _layout() {
   return (

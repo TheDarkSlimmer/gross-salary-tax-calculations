@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          {
+            "fontSize": 35,
+            "fontWeight": "600",
+            "marginBottom": 10,
+            "marginLeft": 30,
+            "marginTop": "5%",
+          }
+        }
+      >
+        Hello undefined,
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "marginTop": 25,
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          alt="Welcome-image"
+          resizeMode="cover"
+          source={1}
+          style={
+            {
+              "height": 250,
+              "width": 250,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "display": "flex",
+            "gap": 13,
+            "justifyContent": "center",
+            "marginTop": 30,
+            "padding": 30,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 18,
+              "fontWeight": "400",
+              "marginTop": 5,
+            }
+          }
+        >
+          Please enter the details below to get your salary summary
+        </Text>
+        <TextInput
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          placeholder="Enter your desired net salary..."
+          style={
+            {
+              "backgroundColor": "#F1F1F1",
+              "borderColor": "#787878",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "paddingBottom": 10,
+              "paddingLeft": 20,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        />
+        <TextInput
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          placeholder="Enter your total allowances..."
+          style={
+            {
+              "backgroundColor": "#F1F1F1",
+              "borderColor": "#787878",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "paddingBottom": 10,
+              "paddingLeft": 20,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        />
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          href="/Summary?salary=NaN&allowance=NaN"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          role="link"
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "gray",
+              "borderRadius": 5,
+              "borderWidth": 0,
+              "display": "flex",
+              "height": 38,
+              "justifyContent": "center",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "width": 140,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontWeight": "600",
+              }
+            }
+          >
+            Submit
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
