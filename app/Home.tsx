@@ -1,7 +1,4 @@
 import { globalStyles, homeStyles, mainStyles } from "@/styles/styles";
-// import { Stack, useNavigation } from "expo-router";
-import { StackNavigationProp } from "@react-navigation/stack";
-import { RootStackParamList } from ".";
 import React, { useState } from "react";
 import {
   Image,
@@ -9,15 +6,12 @@ import {
   ScrollView,
   Text,
   TextInput,
-  TouchableOpacity,
   View,
   StatusBar,
   Pressable,
 } from "react-native";
-// import { useRoute, RouteProp } from "@react-navigation/native";
-import { Link, router, useLocalSearchParams } from "expo-router";
+import { Link, useLocalSearchParams } from "expo-router";
 
-// export type HomeScreenRouteProp = RouteProp<RootStackParamList, "Home">;
 function Home() {
   const [desiredNetSalary, setDesiredNetSalary] = useState<string>("");
   const [desiredAllowance, setDesiredAllowance] = useState<string>("");

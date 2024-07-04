@@ -253,3 +253,257 @@ exports[`renders correctly 1`] = `
   </RCTScrollView>
 </RCTSafeAreaView>
 `;
+
+exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
+<RCTSafeAreaView>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "display": "flex",
+            "gap": 13,
+            "justifyContent": "center",
+            "marginTop": 30,
+            "padding": 30,
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 20,
+              "fontWeight": "600",
+              "margin": "auto",
+            }
+          }
+        >
+          Your extimated gross salary is
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 30,
+              "fontWeight": "600",
+              "margin": "auto",
+            }
+          }
+        >
+          GHS0.00
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "borderColor": "#0077B6",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "margin": "auto",
+            "marginBottom": 20,
+            "padding": 25,
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "display": "flex",
+              "flexDirection": "row",
+              "fontWeight": "600",
+              "gap": 20,
+              "justifyContent": "space-between",
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+                "lineHeight": 20,
+                "width": "50%",
+              }
+            }
+          >
+            Basic Salary
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+              }
+            }
+          >
+            GHS0.00
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "display": "flex",
+              "flexDirection": "row",
+              "fontWeight": "600",
+              "gap": 20,
+              "justifyContent": "space-between",
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+                "lineHeight": 20,
+                "width": "50%",
+              }
+            }
+          >
+            Employee Pension Contribution Amount
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+              }
+            }
+          >
+            GHS0.00
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "display": "flex",
+              "flexDirection": "row",
+              "fontWeight": "600",
+              "gap": 20,
+              "justifyContent": "space-between",
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+                "lineHeight": 20,
+                "width": "50%",
+              }
+            }
+          >
+            Employer Pension Amount
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+              }
+            }
+          >
+            GHS0.00
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "display": "flex",
+              "flexDirection": "row",
+              "fontWeight": "600",
+              "gap": 20,
+              "justifyContent": "space-between",
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+                "lineHeight": 20,
+                "width": "50%",
+              }
+            }
+          >
+            Total PAYE Tax
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 15,
+                "fontWeight": 600,
+              }
+            }
+          >
+            GHS0.00
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#0077B6",
+            "borderRadius": 5,
+            "borderWidth": 0,
+            "display": "flex",
+            "height": 38,
+            "justifyContent": "center",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "opacity": 1,
+            "width": 140,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "white",
+              "fontWeight": "600",
+            }
+          }
+        >
+          Calculate again
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
