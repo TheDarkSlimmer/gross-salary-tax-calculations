@@ -47,7 +47,7 @@ function Home() {
             onChangeText={(text) => setDesiredNetSalary(text)}
           />
           <TextInput
-            placeholder="Enter your desired allowance..."
+            placeholder="Enter your total allowances..."
             style={homeStyles.homeInput}
             onChangeText={(text) => setDesiredAllowance(text)}
           />
