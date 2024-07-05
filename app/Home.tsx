@@ -16,12 +16,14 @@ function Home() {
   const [desiredNetSalary, setDesiredNetSalary] = useState<string>("");
   const [desiredAllowance, setDesiredAllowance] = useState<string>("");
   const { name } = useLocalSearchParams<{ name?: string }>();
-  
+
   return (
     <SafeAreaView>
       <ScrollView>
         <StatusBar backgroundColor={globalStyles.statusColor.backgroundColor} />
-        <Text style={homeStyles.helloText}>{`Hello ${name},`}</Text>
+        <Text
+          style={{ ...homeStyles.helloText, fontFamily: "Inter-Medium" }}
+        >{`Hello ${name},`}</Text>
         <View style={homeStyles.homeImageContainer}>
           <Image
             source={require("../assets/images/money-income-amico.png")}
@@ -31,19 +33,21 @@ function Home() {
           />
         </View>
         <View style={homeStyles.homeInputsContainer}>
-          <Text style={mainStyles.formDescription}>
+          <Text
+            style={{ ...mainStyles.formDescription, fontFamily: "Inter-Light" }}
+          >
             Please enter the details below to get your salary summary
           </Text>
           <TextInput
             keyboardType="numeric"
             placeholder="Enter your desired net salary..."
-            style={homeStyles.homeInput}
+            style={{ ...homeStyles.homeInput, fontFamily: "Inter-Light" }}
             onChangeText={(text) => setDesiredNetSalary(text)}
           />
           <TextInput
             keyboardType="numeric"
             placeholder="Enter your total allowances..."
-            style={homeStyles.homeInput}
+            style={{ ...homeStyles.homeInput, fontFamily: "Inter-Light" }}
             onChangeText={(text) => setDesiredAllowance(text)}
           />
           <Link
@@ -63,7 +67,14 @@ function Home() {
                   !desiredAllowance || !desiredNetSalary ? "gray" : "#0077B6",
               }}
             >
-              <Text style={globalStyles.buttonText}>Submit</Text>
+              <Text
+                style={{
+                  ...globalStyles.buttonText,
+                  fontFamily: "Inter",
+                }}
+              >
+                Submit
+              </Text>
             </Pressable>
           </Link>
         </View>

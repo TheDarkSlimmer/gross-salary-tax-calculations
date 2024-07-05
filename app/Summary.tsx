@@ -57,11 +57,19 @@ function Summary() {
       <ScrollView>
         <StatusBar backgroundColor={globalStyles.statusColor.backgroundColor} />
         <View style={summaryStyles.extimatedSalaryContainer}>
-          <Text style={summaryStyles.extimatedSalaryText}>
+          <Text
+            style={{
+              ...summaryStyles.extimatedSalaryText,
+              fontFamily: "Inter-Medium",
+            }}
+          >
             Your extimated gross salary is
           </Text>
           <Text
-            style={summaryStyles.exttimatedSalaryNumber}
+            style={{
+              ...summaryStyles.exttimatedSalaryNumber,
+              fontFamily: "Inter-Medium",
+            }}
           >{`GHS${estimatedGrossSalary.toFixed(2)}`}</Text>
         </View>
         <View style={summaryStyles.valuesContainer}>
@@ -72,12 +80,13 @@ function Summary() {
                 lineHeight: 20,
                 fontWeight: 600,
                 fontSize: 15,
+                fontFamily: "Inter",
               }}
             >
               Basic Salary
             </Text>
             <Text
-              style={{ fontWeight: 600, fontSize: 15 }}
+              style={{ fontWeight: 600, fontSize: 15, fontFamily: "Inter" }}
             >{`GHS${basicSalary.toFixed(2)}`}</Text>
           </View>
           <View style={summaryStyles.valuesTextContainer}>
@@ -87,12 +96,13 @@ function Summary() {
                 lineHeight: 20,
                 fontWeight: 600,
                 fontSize: 15,
+                fontFamily: "Inter",
               }}
             >
               Employee Pension Contribution Amount
             </Text>
             <Text
-              style={{ fontWeight: 600, fontSize: 15 }}
+              style={{ fontWeight: 600, fontSize: 15, fontFamily: "Inter" }}
             >{`GHS${employeePensionContribution.toFixed(2)}`}</Text>
           </View>
           <View style={summaryStyles.valuesTextContainer}>
@@ -102,12 +112,13 @@ function Summary() {
                 lineHeight: 20,
                 fontWeight: 600,
                 fontSize: 15,
+                fontFamily: "Inter",
               }}
             >
               Employer Pension Amount
             </Text>
             <Text
-              style={{ fontWeight: 600, fontSize: 15 }}
+              style={{ fontWeight: 600, fontSize: 15, fontFamily: "Inter" }}
             >{`GHS${employerPensionAmount.toFixed(2)}`}</Text>
           </View>
           <View style={summaryStyles.valuesTextContainer}>
@@ -117,12 +128,13 @@ function Summary() {
                 lineHeight: 20,
                 fontWeight: 600,
                 fontSize: 15,
+                fontFamily: "Inter",
               }}
             >
               Total PAYE Tax
             </Text>
             <Text
-              style={{ fontWeight: 600, fontSize: 15 }}
+              style={{ fontWeight: 600, fontSize: 15, fontFamily: "Inter" }}
             >{`GHS${totalPAYETax.toFixed(2)}`}</Text>
           </View>
         </View>
@@ -132,7 +144,9 @@ function Summary() {
           asChild
         >
           <TouchableOpacity style={globalStyles.buttonStyles}>
-            <Text style={globalStyles.buttonText}>Calculate again</Text>
+            <Text style={{ ...globalStyles.buttonText, fontFamily: "Inter" }}>
+              Calculate again
+            </Text>
           </TouchableOpacity>
         </Link>
       </ScrollView>

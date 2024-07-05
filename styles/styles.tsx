@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+
+
 export const globalStyles = StyleSheet.create({
   safeAreaMain: {
     backgroundColor: "white",
@@ -136,6 +138,6 @@ export const summaryStyles = StyleSheet.create({
     justifyContent: "space-between",
     gap: 20,
     marginBottom: 20,
-    fontWeight: '600'
+    fontWeight: "600",
   },
 });

@@ -20,6 +20,7 @@ exports[`renders correctly 1`] = `
         <Text
           style={
             {
+              "fontFamily": "Inter-Medium",
               "fontSize": 20,
               "fontWeight": "600",
               "margin": "auto",
@@ -31,6 +32,7 @@ exports[`renders correctly 1`] = `
         <Text
           style={
             {
+              "fontFamily": "Inter-Medium",
               "fontSize": 30,
               "fontWeight": "600",
               "margin": "auto",
@@ -68,6 +70,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -80,6 +83,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -103,6 +107,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -115,6 +120,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -138,6 +144,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -150,6 +157,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -173,6 +181,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -185,6 +194,7 @@ exports[`renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -242,6 +252,7 @@ exports[`renders correctly 1`] = `
           style={
             {
               "color": "white",
+              "fontFamily": "Inter",
               "fontWeight": "600",
             }
           }
@@ -274,6 +285,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
         <Text
           style={
             {
+              "fontFamily": "Inter-Medium",
               "fontSize": 20,
               "fontWeight": "600",
               "margin": "auto",
@@ -285,6 +297,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
         <Text
           style={
             {
+              "fontFamily": "Inter-Medium",
               "fontSize": 30,
               "fontWeight": "600",
               "margin": "auto",
@@ -322,6 +335,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -334,6 +348,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -357,6 +372,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -369,6 +385,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -392,6 +409,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -404,6 +422,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -427,6 +446,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
                 "lineHeight": 20,
@@ -439,6 +459,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           <Text
             style={
               {
+                "fontFamily": "Inter",
                 "fontSize": 15,
                 "fontWeight": 600,
               }
@@ -496,6 +517,7 @@ exports[`retrieves userName from AsyncStorage and renders correctly 1`] = `
           style={
             {
               "color": "white",
+              "fontFamily": "Inter",
               "fontWeight": "600",
             }
           }
