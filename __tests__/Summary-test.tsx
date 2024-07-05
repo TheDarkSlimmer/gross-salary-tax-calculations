@@ -1,5 +1,4 @@
 import React from "react";
-import renderer, { act } from "react-test-renderer";
 import Summary from "../app/Summary";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { render, waitFor } from "@testing-library/react-native";

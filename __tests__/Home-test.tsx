@@ -1,8 +1,8 @@
 import React from "react";
-import renderer from "react-test-renderer";
-import Home from "../app/Home"; 
+import { render } from "@testing-library/react-native";
+import Home from "../app/Home";
 
 test("renders correctly", () => {
-  const tree = renderer.create(<Home />).toJSON();
+  const tree = render(<Home />).toJSON();
   expect(tree).toMatchSnapshot();
 });
